@@ -1,5 +1,4 @@
 def update_status
-  
    epic_tragedy = {
       :montague => {
          :patriarch => {name: "Lord Montague", age: "53"},
@@ -21,12 +20,8 @@ def update_status
       }
    }
 
-  # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
-  # Code your solution here:
-def update_status 
-
-end
-update_status
+    epic_tragedy[:montague][:hero][:status]="dead"
+    epic_tragedy[:montague][:heroine][:status]="dead"
 
 
   # After your code, the following code will return the altered hash. This method must only return the modified epic_tragedy hash
