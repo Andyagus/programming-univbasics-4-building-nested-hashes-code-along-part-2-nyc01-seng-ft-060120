@@ -22,9 +22,8 @@ def update_status
 
   # Write code that changes the status of both Romeo and Juliet from "alive" to "dead"
   # Code your solution here:
-def update_status {
- : 
-}
+def update_status 
+  
 end
 
 
